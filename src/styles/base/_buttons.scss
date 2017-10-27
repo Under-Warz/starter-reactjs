@@ -1,0 +1,42 @@
+// ------------------------------------------------------------
+// Buttons
+// ------------------------------------------------------------
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  appearance: none;
+  border-radius: 0;
+
+  display: inline-block;
+
+  border: none;
+  outline: none;
+  padding: 0.75em 1em;
+  cursor: pointer;
+  color: $white-color;
+  background-color: $darkgrey-color;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font-size-base;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  user-select: none;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}

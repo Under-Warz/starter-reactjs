@@ -1,0 +1,17 @@
+:local(.counter) {
+  text-align: center;
+
+  h2 {
+    color: $lightgrey-color;
+    margin: 10px 0 20px;
+  }
+
+  .buttons {
+    button {
+      margin-right: 10px;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

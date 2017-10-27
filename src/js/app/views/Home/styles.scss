@@ -1,0 +1,28 @@
+:local(.home) {
+  text-align: center;
+  margin-top: 40px;
+
+  .img {
+    width: 120px;
+    height: 124px;
+    margin: 20px auto;
+    background-image: url(../../assets/images/Duck.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .sharing {
+    margin: 50px 0 40px;
+    a {
+      font-size: 24px;
+      color: $lightgrey-color;
+      margin-right: 30px;
+      &:last-child {
+        margin: 0;
+      }
+      &:hover {
+        color: $blue-color;
+      }
+    }
+  }
+}

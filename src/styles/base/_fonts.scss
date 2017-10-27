@@ -1,0 +1,13 @@
+// ------------------------------------------------------------
+// FONTS
+// ------------------------------------------------------------
+
+// For this font, we do not have 'woff2' file so we add all extensions
+// in the last parameter except 'woff2'
+@include font-face("Muller", $font-folder + "MullerRegular/MullerRegular", normal, normal, eot woff ttf svg);
+@include font-face("Muller", $font-folder + "MullerBold/MullerBold", bold, normal, eot woff ttf svg);
+@include font-face("Muller", $font-folder + "MullerRegularItalic/MullerRegularItalic", normal, italic, eot woff ttf svg);
+@include font-face("MullerMedium", $font-folder + "MullerMedium/MullerMedium", normal, normal, eot woff ttf svg);
+@include font-face("MullerMedium", $font-folder + "MullerMediumItalic/MullerMediumItalic", normal, italic, eot woff ttf svg);
+@include font-face("MullerExtraBold", $font-folder + "MullerExtraBold/MullerExtraBold", normal, normal, eot woff ttf svg);
+@include font-face("MullerExtraBold", $font-folder + "MullerExtraBoldItalic/MullerExtraBoldItalic", normal, italic, eot woff ttf svg);

@@ -1,0 +1,35 @@
+// set content to body:before for each media queries
+body:before {
+  content: "mobile";
+  display: none;
+}
+
+@include tablet() {
+  body:before {
+    content: "tablet";
+  }
+}
+
+@include desktop() {
+  body:before {
+    content: "desktop";
+  }
+}
+
+@include desktop-1280() {
+  body:before {
+    content: "desktop-1280";
+  }
+}
+
+@include desktop-1440() {
+  body:before {
+    content: "desktop-1440";
+  }
+}
+
+@include desktop-1920() {
+  body:before {
+    content: "desktop-1920";
+  }
+}

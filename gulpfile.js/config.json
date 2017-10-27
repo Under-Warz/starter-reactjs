@@ -1,0 +1,29 @@
+{
+  "root": {
+    "src": "./src",
+    "dest": "./dist",
+    "assetsSrc": "./src/assets",
+    "assetsDest": "./dist/assets"
+  },
+
+  "tasks": {
+    "js": {
+      "src": "js",
+      "dest": "js"
+    },
+    "css": {
+      "src": "styles",
+      "dest": "styles"
+    },
+    "iconFont": {
+      "src": "icons",
+      "dest": "fonts",
+      "sassDest": "generated",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    },
+    "imagemin": {
+      "src": "images",
+      "dest": "images"
+    }
+  }
+}

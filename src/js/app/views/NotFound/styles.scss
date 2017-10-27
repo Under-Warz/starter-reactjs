@@ -1,0 +1,41 @@
+:local(.notfound) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .title {
+    font-family: $muller;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-family: $muller;
+    font-size: 25px;
+  }
+
+  .routes {
+    margin-top: 40px;
+
+    .route {
+      font-family: $muller;
+      color: $mediumgrey-color;
+      &:hover {
+        color: $blue-color;
+      }
+    }
+
+    .activeRoute {
+      font-weight: bold;
+      color: $blue-color;
+    }
+
+    .separator {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}

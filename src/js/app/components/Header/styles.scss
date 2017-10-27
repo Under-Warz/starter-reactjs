@@ -1,0 +1,50 @@
+:local(.header) {
+  text-align: center;
+  margin: 20px;
+
+  .routes {
+    margin: 0 0 20px;
+
+    .route {
+      font-family: $muller;
+      color: $mediumgrey-color;
+      &:hover {
+        color: $blue-color;
+      }
+    }
+
+    .activeRoute {
+      font-weight: bold;
+      color: $blue-color;
+    }
+
+    .separator {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 200px;
+    height: 40px;
+    margin: 0 5px 20px 0;
+    padding: 4px;
+    outline: none;
+    border: 1px solid $mediumgrey-color;
+    font-family: $muller;
+  }
+
+  input[type="submit"] {
+    font-family: $muller;
+  }
+
+  .error {
+    color: $red-color;
+    font-family: $muller-medium;
+    font-size: 18px;
+  }
+
+  .welcome {
+    color: $darkgrey-color;
+  }
+}

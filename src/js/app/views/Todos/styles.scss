@@ -1,0 +1,87 @@
+:local(.todos) {
+  text-align: center;
+
+  form {
+    margin-top: 20px;
+
+    input[type="text"] {
+      width: 300px;
+      height: 40px;
+      margin: 0 0 20px 0;
+      padding: 4px;
+      outline: none;
+      border: 1px solid $mediumgrey-color;
+      font-family: $muller;
+    }
+
+    input[type="submit"] {
+      font-family: $muller;
+    }
+  }
+
+  ul {
+    li {
+      color: $mediumgrey-color;
+      font-family: $muller-medium;
+      font-size: 30px;
+      margin-bottom: 15px;
+      padding-left: 85px;
+      cursor: pointer;
+
+      &.todo-complete {
+        text-decoration: line-through;
+      }
+
+      .remove {
+        display: inline-block;
+        visibility: hidden;
+        opacity: 0.8;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+
+      .edit {
+        display: inline-block;
+        visibility: hidden;
+        opacity: 0.8;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+
+      form {
+        margin: 0;
+
+        .edit-input {
+          width: 250px;
+          margin-left: -85px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 40px;
+
+    a {
+      font-family: $muller;
+      font-size: 25px;
+      color: $darkgrey-color;
+      letter-spacing: 0.5px;
+    }
+
+    .footer-active {
+      font-weight: bold;
+      color: $blue-color;
+    }
+
+    .separator {
+      display: inline-block;
+      font-family: $muller;
+      font-size: 20px;
+      color: $darkgrey-color;
+      margin: 0 10px;
+    }
+  }
+}

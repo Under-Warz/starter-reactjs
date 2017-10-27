@@ -1,0 +1,36 @@
+{
+  "header": {
+    "username": "Username",
+    "password": "Password",
+    "submit": "Soumettre",
+    "error_login": "Login invalide",
+    "welcome": "Bienvenue"
+  },
+
+  "home": {
+    "title": "REACT REDUX ROUTER STARTER"
+  },
+
+  "counter": {
+    "title": "COUNTER",
+    "increment": "INCREMENT",
+    "double": "DOUBLE (Async)"
+  },
+
+  "todos": {
+    "title": "TODOS",
+    "what_todo": "What needs to be done ?",
+    "submit": "Valider",
+    "empty_field": "Todo value can't be empty",
+    "edit": "Edit",
+    "all": "All",
+    "active": "Active",
+    "complete": "Complete",
+    "remove_all": "REMOVE ALL"
+  },
+
+  "not_found": {
+    "title": "NOT FOUND",
+    "description": "Sorry, this page does not exist"
+  }
+}
